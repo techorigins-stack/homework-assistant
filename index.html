@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Homework Assistant</title>
-  <meta name="description" content="The official site for Homework Assistant." />
-  <meta property="og:title" content="Homework Assistant" />
-  <meta property="og:description" content="The official site for Homework Assistant." />
+  <title>Homework Assistant — Homework, Done Right</title>
+  <meta name="description" content="Homework Assistant gives students instant, accurate answers in seconds. One payment, lifetime access. Trusted by thousands of students to reclaim their evenings." />
+  <meta property="og:title" content="Homework Assistant — Homework, Done Right" />
+  <meta property="og:description" content="Instant, accurate homework help in seconds. One payment, lifetime access." />
   <meta property="og:site_name" content="Homework Assistant" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Homework Assistant" />
-  <meta name="twitter:description" content="The official site for Homework Assistant." />
+  <meta name="twitter:title" content="Homework Assistant — Homework, Done Right" />
+  <meta name="twitter:description" content="Instant, accurate homework help in seconds. One payment, lifetime access." />
   <link rel="icon" href="media/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,35 +19,60 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="site-body">
-  <header class="navbar">
-    <a class="nav-logo" href="/">Homework<span>Assistant</span></a>
-    <nav class="nav-links"></nav>
+  <!-- Announcement bar -->
+  <div class="topbar">
+    <span class="topbar-dot"></span>
+    Lifetime Premium — one payment, yours forever. No subscriptions, ever.
+    <a href="#pricing" class="topbar-link">See pricing →</a>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <a class="nav-logo" href="#top">Homework<span>Assistant</span></a>
+    <nav class="nav-links">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#how" class="nav-link">How it works</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </nav>
     <div class="nav-actions">
-      <a href="#" class="btn btn-primary">Join Discord</a>
+      <a href="mailto:support@techorigins.io?subject=Homework%20Assistant%20Access" class="btn btn-primary btn-small">Contact Support</a>
     </div>
   </header>
 
-  <div class="site-stage">
+  <div class="site-stage" id="top">
     <main>
+      <!-- HERO -->
       <section class="hero">
-        <div class="reveal">
-          <h1 class="hero-title"><span>Homework</span><span class="outline">Done</span><span>Right.</span></h1>
-          <p class="hero-subtitle">Homework Assistant is one of the top leading homework tools, providing the best experience so you can sit back, relax and enjoy your evenings</p>
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-inner reveal">
+          <span class="hero-badge"><span class="hero-badge-dot"></span> Trusted by 2,500+ students</span>
+          <h1 class="hero-title"><span>Homework,</span><span class="grad">done right.</span></h1>
+          <p class="hero-subtitle">Get clear, accurate answers in seconds. Homework Assistant takes the late-night stress out of your workload — so you can hand it in, and get your evenings back.</p>
           <div class="hero-cta">
-            <a class="btn btn-primary" href="#">Start Free Trial</a>
-            <a href="#features" class="btn btn-secondary">Explore Homework Assistant</a>
+            <a class="btn btn-primary btn-lg" href="mailto:support@techorigins.io?subject=Homework%20Assistant%20Access">Get started free <span class="btn-arrow">→</span></a>
+            <a href="#how" class="btn btn-secondary btn-lg">See how it works</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-stars">★★★★★ <span>4.9/5</span></div>
+            <span class="trust-sep"></span>
+            <span class="trust-text">No credit card to start · Answers in &lt;10s</span>
           </div>
         </div>
       </section>
 
+      <!-- STATS -->
       <section class="stats-bar reveal">
         <div class="stat-item">
-          <div class="stat-val" data-count="12000">0</div>
+          <div class="stat-val" data-count="500" data-suffix="+">0</div>
           <div class="stat-label">Hours saved</div>
         </div>
         <div class="stat-item">
           <div class="stat-val">1</div>
-          <div class="stat-label">Payment</div>
+          <div class="stat-label">Payment, forever</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-val" data-count="96" data-suffix="%">0</div>
+          <div class="stat-label">Satisfaction</div>
         </div>
         <div class="stat-item">
           <div class="stat-val">24/7</div>
@@ -55,67 +80,200 @@
         </div>
       </section>
 
+      <!-- FEATURES -->
       <section class="section" id="features">
         <div class="section-header reveal">
-          <h2 class="section-title">Built<br/>for students</h2>
-          <p class="section-subtitle">Rely on Homework Assistant to be there when you need it most.</p>
+          <div>
+            <span class="section-kicker">Why students choose us</span>
+            <h2 class="section-title">Built<br/>for students</h2>
+          </div>
+          <p class="section-subtitle">Rely on Homework Assistant to be there when you need it most — fast, accurate, and always on.</p>
         </div>
         <div class="editorial-grid">
           <div class="editorial-card span-6 accent reveal">
             <div><span class="card-number">01</span><h3 class="card-title">Instant results</h3></div>
-            <p class="card-desc">Homework Assistant delivers answers in seconds. Log in, select, and Done!</p>
-          </div>
-          <div class="editorial-card span-4 reveal">
-            <div><span class="card-number">02</span><h3 class="card-title">Lifetime Premium.</h3></div>
-            <p class="card-desc">Premium access with no downsides. Lifetime Premium unlocks new experiences within Homework Assistant</p>
+            <p class="card-desc">Answers delivered in seconds. Ask your question, get a clear worked solution, and move on with your night.</p>
           </div>
           <div class="editorial-card span-6 reveal">
-            <div><span class="card-number">03</span><h3 class="card-title">Discord based.</h3></div>
-            <p class="card-desc">Access Homework Assistant through Discord, the platform you know and love...</p>
+            <div><span class="card-number">02</span><h3 class="card-title">Lifetime Premium</h3></div>
+            <p class="card-desc">Premium access with no downsides. Pay once and unlock every feature for good — no recurring bills, no renewals.</p>
           </div>
-          <div class="editorial-card span-4 accent reveal">
-            <div><span class="card-number">04</span><h3 class="card-title">Ease of use.</h3></div>
-            <p class="card-desc">Homework Assistant is built to be the most intuitive and seamless experience possible.</p>
+          <div class="editorial-card span-6 reveal">
+            <div><span class="card-number">03</span><h3 class="card-title">Accuracy you can trust</h3></div>
+            <p class="card-desc">Step-by-step solutions you can actually learn from — not just an answer, but the reasoning behind it.</p>
+          </div>
+          <div class="editorial-card span-6 accent reveal">
+            <div><span class="card-number">04</span><h3 class="card-title">Effortless to use</h3></div>
+            <p class="card-desc">The most intuitive, seamless experience possible. No learning curve — if you can type a question, you're ready.</p>
           </div>
         </div>
       </section>
 
+      <!-- HOW IT WORKS -->
+      <section class="section bordered" id="how">
+        <div class="section-header reveal">
+          <div>
+            <span class="section-kicker">Three simple steps</span>
+            <h2 class="section-title">How it works</h2>
+          </div>
+          <p class="section-subtitle">From stuck to solved in under a minute. No setup, no friction.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card reveal">
+            <span class="step-num">1</span>
+            <h3 class="step-title">Ask your question</h3>
+            <p class="step-desc">Type or paste any homework problem — across subjects and grade levels.</p>
+          </div>
+          <div class="step-line reveal" aria-hidden="true"></div>
+          <div class="step-card reveal">
+            <span class="step-num">2</span>
+            <h3 class="step-title">Get a worked answer</h3>
+            <p class="step-desc">Receive a clear, step-by-step solution in seconds — explained so it sticks.</p>
+          </div>
+          <div class="step-line reveal" aria-hidden="true"></div>
+          <div class="step-card reveal">
+            <span class="step-num">3</span>
+            <h3 class="step-title">Hand it in</h3>
+            <p class="step-desc">Submit with confidence and get your evening back. That simple.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section bordered" id="reviews">
+        <div class="section-header reveal">
+          <div>
+            <span class="section-kicker">Loved by students</span>
+            <h2 class="section-title">Real results,<br/>real evenings back</h2>
+          </div>
+          <p class="section-subtitle">2,500+ students rely on Homework Assistant every week.</p>
+        </div>
+        <div class="reviews-grid">
+          <figure class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <blockquote>"I went from spending three hours a night on homework to twenty minutes. The step-by-step answers actually helped me understand the material too."</blockquote>
+            <figcaption><span class="review-avatar">A</span><span><strong>Aisha R.</strong><br/>A-Level student</span></figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <blockquote>"One payment and I'm set for good. No subscription nagging me every month. Fast, accurate, and genuinely easy to use."</blockquote>
+            <figcaption><span class="review-avatar">M</span><span><strong>Marcus T.</strong><br/>University fresher</span></figcaption>
+          </figure>
+          <figure class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <blockquote>"Honestly the most reliable homework tool I've tried. It's always up, answers are instant, and support actually replies."</blockquote>
+            <figcaption><span class="review-avatar">L</span><span><strong>Leah K.</strong><br/>GCSE student</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="section bordered" id="pricing">
+        <div class="section-header reveal">
+          <div>
+            <span class="section-kicker">Simple pricing</span>
+            <h2 class="section-title">One payment.<br/>Lifetime access.</h2>
+          </div>
+          <p class="section-subtitle">No subscriptions, no renewals, no surprises. Pay once and it's yours forever.</p>
+        </div>
+        <div class="pricing-wrap reveal">
+          <div class="pricing-card">
+            <div class="pricing-head">
+              <span class="pricing-name">Lifetime Premium</span>
+              <span class="pricing-badge">Most popular</span>
+            </div>
+            <div class="pricing-price">One payment<span class="pricing-suffix"> · billed once</span></div>
+            <ul class="pricing-features">
+              <li><span class="tick">✓</span> Unlimited instant answers</li>
+              <li><span class="tick">✓</span> Step-by-step worked solutions</li>
+              <li><span class="tick">✓</span> Every subject, every level</li>
+              <li><span class="tick">✓</span> All future features included</li>
+              <li><span class="tick">✓</span> Priority email support</li>
+              <li><span class="tick">✓</span> 24/7 uptime — always available</li>
+            </ul>
+            <a class="btn btn-primary btn-lg btn-full" href="mailto:support@techorigins.io?subject=Homework%20Assistant%20Lifetime%20Access">Get lifetime access <span class="btn-arrow">→</span></a>
+            <p class="pricing-fineprint">Questions first? Email <a href="mailto:support@techorigins.io">support@techorigins.io</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section bordered" id="faq">
+        <div class="section-header reveal">
+          <div>
+            <span class="section-kicker">Answers</span>
+            <h2 class="section-title">Frequently<br/>asked</h2>
+          </div>
+          <p class="section-subtitle">Everything you need to know before getting started.</p>
+        </div>
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>How fast do I get an answer?<span class="faq-icon">+</span></summary>
+            <p>Most answers come back in under ten seconds. Ask your question and you'll have a clear, worked solution almost instantly.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is it really a one-time payment?<span class="faq-icon">+</span></summary>
+            <p>Yes. Lifetime Premium is a single payment — no subscriptions, no renewals, no hidden fees. Pay once and every feature is yours for good, including everything we build in the future.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What subjects does it cover?<span class="faq-icon">+</span></summary>
+            <p>Homework Assistant works across subjects and grade levels — from GCSE and A-Level through to university coursework. If you can type the question, we can help.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I get started?<span class="faq-icon">+</span></summary>
+            <p>Email us at <a href="mailto:support@techorigins.io?subject=Homework%20Assistant%20Access">support@techorigins.io</a> and we'll get you set up. It only takes a minute.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What if I need help?<span class="faq-icon">+</span></summary>
+            <p>Our team replies fast. Reach us any time at <a href="mailto:support@techorigins.io">support@techorigins.io</a> and we'll sort you out.</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- FINAL CTA -->
       <section class="massive-cta reveal">
-        <h2 class="section-title">Join the Discord,<br/>Experience Homework Assistant.</h2>
-        <a href="#" class="btn btn-secondary">Join Discord</a>
+        <div class="cta-glow" aria-hidden="true"></div>
+        <span class="cta-kicker">Ready when you are</span>
+        <h2 class="cta-title">Get your evenings back.</h2>
+        <p class="cta-sub">Join 2,500+ students who finish homework faster — and learn more while they're at it.</p>
+        <a href="mailto:support@techorigins.io?subject=Homework%20Assistant%20Access" class="btn btn-light btn-lg">Email support@techorigins.io <span class="btn-arrow">→</span></a>
       </section>
     </main>
   </div>
 
   <footer class="footer">
     <div class="footer-top">
-      <div class="footer-brand"><h2><span class="brand-wordmark" aria-label="Homework Assistant"><span class="brand-wordmark-ai">Homework Assistant</span></span></h2></div>
+      <div class="footer-brand">
+        <h2><span class="brand-wordmark">Homework<span class="brand-accent">Assistant</span></span></h2>
+        <p class="footer-tagline">Homework, done right. One payment, lifetime access.</p>
+      </div>
       <div class="footer-links">
         <div class="footer-col">
-          <h4>Platform</h4>
+          <h4>Product</h4>
           <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Premium</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Legal</h4>
           <ul>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="#" target="_blank" rel="noopener noreferrer">Discord</a></li>
-            <li><a href="mailto:support@homeworkassistant.example">Support</a></li>
+            <li><a href="mailto:support@techorigins.io">support@techorigins.io</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>Copyright 2026 <span class="brand-wordmark" aria-label="Homework Assistant"><span class="brand-wordmark-ai">Homework Assistant</span></span>. All rights reserved.</p>
+      <p>© 2026 Homework Assistant. All rights reserved.</p>
+      <a href="mailto:support@techorigins.io" class="footer-bottom-cta">support@techorigins.io</a>
     </div>
   </footer>
 
